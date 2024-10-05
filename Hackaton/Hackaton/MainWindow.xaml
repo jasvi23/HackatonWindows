@@ -1,0 +1,35 @@
+﻿<Window x:Class="Hackaton.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hackaton"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Menu Localization.Attributes="200" Margin="360,56,353,341">
+            <MenuItem Header="_WELLCOME"
+                      Name="wellcome"
+                      Click="Wellcome_Click">
+                <MenuItem Header="_CHOOSE DIFFICULTY"
+                          Name="difficulty">
+                    <MenuItem Header="_LEVEL 1 (EASY)"
+                              Name="easy"/>
+                    <MenuItem Header="_LEVEL 2 (MEDIUM)"
+                              Name="medium"/>
+                    <MenuItem Header="_LEVEL 3 (HARD)"
+                              Name="hard">
+
+                    </MenuItem>
+
+
+
+
+
+                </MenuItem>
+            </MenuItem>
+
+        </Menu>
+
+    </Grid>
+</Window>
